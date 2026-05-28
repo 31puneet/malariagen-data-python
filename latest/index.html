@@ -403,6 +403,16 @@ data from the <a class="reference external" href="https://www.malariagen.net/">M
 </div>
 <a class="sd-stretched-link sd-hide-link-text reference internal" href="Adir1.html"><span class="doc">Adir1</span></a></div>
 </div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+<code class="docutils literal notranslate"><span class="pre">Adar1</span></code></div>
+<p class="sd-card-text"><em>Anopheles darlingi</em>
+.. image:: ./_static/images/anopheles_darlingi.jpg</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference internal" href="Adar1.html"><span class="doc">Adar1</span></a></div>
+</div>
 </div>
 </div>
 <p>Documentation for the <a class="reference external" href="https://malariagen.github.io/parasite-data/pf7/api.html">Pf7</a> (<em>Plasmodium falciparum</em>)
@@ -415,6 +425,12 @@ currently hosted on a separate site.</p>
 via pip:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">malariagen_data</span>
 </pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are using Google Colab with a <strong>TPU runtime</strong>, installation may fail due to
+a dependency conflict with a preinstalled system package (<code class="docutils literal notranslate"><span class="pre">blinker==1.4</span></code>).</p>
+<p>See <a class="reference internal" href="colab_tpu.html"><span class="doc">Using malariagen_data on Google Colab (TPU Runtime)</span></a> for detailed instructions and troubleshooting.</p>
 </div>
 <p>For accessing data in Google Cloud Storage (GCS) you will also need to authenticate with Google Cloud.</p>
 <p>If you are using <code class="docutils literal notranslate"><span class="pre">malariagen_data</span></code> from within Google Colab, authentication will be automatically
